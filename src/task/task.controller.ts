@@ -2,7 +2,6 @@ import { ErrorService } from './../error/error.service';
 import { TaskService } from './task.service';
 import { Controller, Get, Post, Req, Delete, Put, Param } from '@nestjs/common';
 import { Request } from 'express';
-import { log } from 'console';
 
 @Controller('task')
 export class TaskController {
