@@ -6,7 +6,6 @@ import { ConfigModule } from '@nestjs/config';
 import { TaskModule } from './task/task.module';
 import { Tasks } from './task/task.model';
 
-
 @Module({
   imports: [
     ConfigModule.forRoot(),
